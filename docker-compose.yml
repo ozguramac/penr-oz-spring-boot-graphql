@@ -7,3 +7,5 @@ services:
     - ./build/libs/penr-oz-springboot-graphql-0.0.1.jar:/app.jar
     entrypoint: java
     command: -jar /app.jar
+    ports:
+    - "8080:8080"

@@ -24,8 +24,9 @@ $ docker-compose up
 version: '3'
 services:
   penr-oz-springboot-graphql:
-    entrypoint: java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005
+    entrypoint: java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005
     ports:
+      - "8080:8080"
       - "5005:5005"
 ```
 then
