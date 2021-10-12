@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: springboot-graphql-example
+
+graphql:
+  servlet:
+    mapping: /graphql
+    enabled: true
+    corsEnabled: true

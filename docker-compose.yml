@@ -1,0 +1,9 @@
+version: '3'
+services:
+  penr-oz-springboot-graphql:
+    image: openjdk:8-alpine
+    container_name: penr-oz-springboot-graphql
+    volumes:
+    - ./build/libs/penr-oz-springboot-graphql-0.0.1.jar:/app.jar
+    entrypoint: java
+    command: -jar /app.jar
