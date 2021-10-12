@@ -18,6 +18,9 @@ $ ./gradlew build
 $ docker-compose up
 ```
 
+### Use
+Access [GraphQL UI](http://localhost:8080/graphiql)
+
 ### Debug
 [docker-compose.override.yml](https://docs.docker.com/compose/extends/)
 ```
